@@ -5,14 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sholahuddin al habib</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <!-- ini adalah header -->
     <Header>
-        <h1 class="tengah"> Welcome to Katik<br>(Kakulator segitiga)</h1>
-        <P class="tengah">hello there, selamt datang di my web matematika<br>
-        </P>
+        <h1 class="tengah"> Welcome to Katik</h1>
+        <h1 class="tengah"> Segitiga Calculator (Kakulator segitiga)</h1>
+        <h2 class="tengah">hello there, selamt datang di my web matematika<br>
+        webset ini web kakulator buat menghitung ukuran segi tiga. selamat mencoba</h2>
     </Header>
+    <hr>
+    <h1 class="kotak-pertama">Segitiga</h1>
+
+    <hr>
+    <!-- ini adalah main -->
+    <h2>Ketik ukuran segitiga</h2>
+    <main class="kotak-hitung">
+        <form id="segitigaForm">
+            <label for="alas">Alas:</label><br>
+            <input type="number" id="alas" name="alas" required><br>
+            <label for="tinggi">Tinggi:</label><br>
+            <input type="number" id="tinggi" name="tinggi" required>
+            <button type="submit">Hitung</button>
+        </form>
+        <div id="hasil"></div>
+    </main>
 </body>
 </html>

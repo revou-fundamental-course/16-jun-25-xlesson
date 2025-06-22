@@ -1,7 +1,26 @@
 body{
      background: black; /*buat warna body web */
 }
-h1,p{
-    color: white;
+h1,h2,p{
+    color: white; /*buat warna tulisan */
     
+}
+.tengah{
+    text-align: center; /*buat tulisan rata tengah */
+}
+.kotak-pertama{
+    width: auto; /*buat ukuran kotak */
+    flex-direction: column; /*buat kotak jadi baris */
+    margin: auto; /*buat kotak rata tengah */
+    padding: 20px; /*buat jarak dalam kotak */
+    background-color: #8e15df; /*buat warna kotak */
+    border-radius: 10px; /*buat sudut kotak melengkung */
+    text-align: center; /*buat tulisan rata tengah */
+}
+.kotak-hitung{
+    width: 300px; /*buat ukuran kotak */
+    margin: 1px;; /*buat kotak rata tengah */
+    padding: 20px; /*buat jarak dalam kotak */
+    background-color: #f1e9e9; /*buat warna kotak */
+    border-radius: 10px; /*buat sudut kotak melengkung */
 }
